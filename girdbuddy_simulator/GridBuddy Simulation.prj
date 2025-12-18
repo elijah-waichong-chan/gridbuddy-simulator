@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4119016311" file="/Users/elijahchan/Desktop/GridBuddy Simulation.prj" location="/Users/elijahchan/Desktop" name="GridBuddy Simulation" target="target.mlapps" target-name="Package App">
+    <param.appname>GridBuddy Simulation</param.appname>
+    <param.authnamewatermark>Elijah Chan</param.authnamewatermark>
+    <param.email>elijahchan@gatech.edu</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>A Solar Microgrid Performance Simuation with the use of GridBuddy</param.summary>
+    <param.description />
+    <param.screenshot>/private/var/folders/4d/jf696m0n2v9d5z20pjwkmp7h0000gn/T/tpb44dc5cc_4575_49f6_bc8f_51e8d3517f72.png</param.screenshot>
+    <param.version>1.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/elijahchan/Downloads/GridBuddy Sim ver 1.1</param.output>
+    <param.guid>d08e6916-2505-4af7-8184-da5293fc13ad</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/simulation_new.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/runSim.m</file>
+      <file>/Users/elijahchan/Library/CloudStorage/GoogleDrive-chanwaichong0352@gmail.com/My Drive/Georgia Tech/Spring 25/ME 4723 Capstone/MATLAB/FSM Simulation/GridBuddyLogo.png</file>
+      <file>/Users/elijahchan/Library/CloudStorage/GoogleDrive-chanwaichong0352@gmail.com/My Drive/Georgia Tech/Spring 25/ME 4723 Capstone/MATLAB/FSM Simulation/StateTable.mat</file>
+      <file>/Users/elijahchan/Library/CloudStorage/GoogleDrive-chanwaichong0352@gmail.com/My Drive/Georgia Tech/Spring 25/ME 4723 Capstone/MATLAB/FSM Simulation/runFSM.m</file>
+      <file>/Users/elijahchan/Library/CloudStorage/GoogleDrive-chanwaichong0352@gmail.com/My Drive/Georgia Tech/Spring 25/ME 4723 Capstone/MATLAB/FSM Simulation/solarFactorCalc.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/elijahchan/Downloads" name="GridBuddy Sim ver 1.1" optional="false">/Users/elijahchan/Downloads/GridBuddy Sim ver 1.1</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2024b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>15.2</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
