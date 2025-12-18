@@ -9,5 +9,5 @@ This folder contains a MATLAB-based simulator used to emulate GridBuddy’s sola
 
 ## Demo video
 <p align="center">
-  <img src="docs/media/gridbuddy_matlab_sim_demo.gif" alt="GridBuddy MATLAB Simulator Demo" style="max-width: 100%; height: auto;" />
+  <img src="docs/media/gridbuddy_sim.gif" alt="GridBuddy MATLAB Simulator Demo" style="max-width: 100%; height: auto;" />
 </p>
